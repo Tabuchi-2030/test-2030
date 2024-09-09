@@ -23,7 +23,8 @@ import page01Img01 from '/assets/images/page01/img_01.webp';
 
 
 export const imgPage01: { [key: string]: string } = {
-  page01Img01,
+  // page01Img01,
+  page01Img01: "/assets/images/page01/img_01.webp"
   // page01Img02,
   // page01Img03,
   // page01Img04,
