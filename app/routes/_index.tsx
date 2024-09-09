@@ -1,5 +1,5 @@
 import { Link } from '@remix-run/react';
-import { imgPage01 } from '../lib/img/page01/images';
+import { imgPage01 } from './app/lib/img/page01/images';
 
 import { json } from '@remix-run/node';
 import { useLoaderData } from '@remix-run/react';
