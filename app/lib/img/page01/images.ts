@@ -1,5 +1,5 @@
 /* images/page01 */
-import page01Img01 from '/public/assets/images/page01/img_01.webp';
+import page01Img01 from '/assets/images/page01/img_01.webp';
 // import page01Img02 from './public/assets/images/page01/img_02.webp';
 // import page01Img03 from './public/assets/images/page01/img_03.webp';
 // import page01Img04 from './public/assets/images/page01/img_04.webp';
