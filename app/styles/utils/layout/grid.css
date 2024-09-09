@@ -1,0 +1,106 @@
+/* ==========================================================================
+ grid
+========================================================================== */
+/* ----------------------------------------------
+ colBk
+---------------------------------------------- */
+.colBk--r2 {
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-flow: row;
+}
+
+.colBk--r3 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-flow: row;
+}
+
+.colBk--r4 {
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-flow: row;
+}
+
+.colBk--r5 {
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-flow: row;
+}
+
+.colBk--r6 {
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-flow: row;
+}
+
+.colBk--r7 {
+  grid-template-columns: repeat(7, 1fr);
+  grid-auto-flow: row;
+}
+
+.colBk--r8 {
+  grid-template-columns: repeat(8, 1fr);
+  grid-auto-flow: row;
+}
+
+/* ----------------------------------------------
+ rowBk
+---------------------------------------------- */
+
+.rowBk--col {
+  display: grid;
+  grid-auto-flow: column;
+  place-content: var(--ac) var(--jc);
+  place-items: var(--ai) var(--ji);
+  column-gap: calc(var(--c-gap) * 1vw / (var(--bps) / 100));
+  row-gap: calc(var(--r-gap) * 1vw / (var(--bps) / 100));
+  width: 100%;
+
+  --jc: space-between;
+  --ji: normal;
+  --ac: normal;
+  --ai: center;
+  --r-gap: var(--c-gap);
+}
+
+.rowBk--r2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-flow: row;
+
+  justify-content: start;
+
+  gap: 0;
+}
+
+.rowBk--r3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-flow: row;
+}
+
+.rowBk--r4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-flow: row;
+}
+
+.rowBk--r5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-flow: row;
+}
+
+.rowBk--r6 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-flow: row;
+}
+
+.rowBk--r7 {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-auto-flow: row;
+}
+
+.rowBk--r8 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-auto-flow: row;
+}

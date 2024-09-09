@@ -1,0 +1,134 @@
+/* ==========================================================================
+
+========================================================================== */
+.title {
+  font-size: calc(var(--title-fs) * 1vw / (var(--bps) / 100));
+  font-weight: var(--ttltext-fw);
+  line-height: var(--ttltext-lh);
+  letter-spacing: calc(var(--ls) * 1vw / (var(--bps) / 100));
+  
+  @media(min-width: 768px) {
+    font-size: calc(var(--ttltext-fs) * 1vw / (var(--bpp) / 100));
+    letter-spacing: calc(var(--ttltext-ls) * 1vw / (var(--bpp) / 100));
+  }
+  
+  --fw: var(--title-fw);
+  --lh: var(--line-height);
+  --ls: var(--letter-spacing);
+  
+  --text-align: var(--ta);
+  --ta: center;
+}
+/* h2 */
+
+.topic {
+  font-size: calc(var(--topic-fs) * 1vw / (var(--bps) / 100));
+  font-weight: var(--ttltext-fw);
+  line-height: var(--ttltext-lh);
+  letter-spacing: calc(var(--ttltext-ls) * 1vw / (var(--bps) / 100));
+  text-align: var(--ta);
+
+  --ta: left;
+
+  @media(min-width: 768px) {
+    font-size: calc(var(--topic-fs) * 1vw / (var(--bpp) / 100));
+    letter-spacing: calc(var(--ttltext-ls) * 1vw / (var(--bpp) / 100));
+  }
+}
+/* h2 */
+
+.summary {
+  font-size: calc(var(--summay-fs) * 1vw / (var(--bps) / 100));
+  font-weight: var(--text-fw);
+  line-height: var(--text-lh);
+  letter-spacing: calc(var(--text-ls) * 1vw / (var(--bps) / 100));
+  text-align: var(--ta);
+
+  --ta: left;
+
+  @media(min-width: 768px) {
+    font-size: calc(var(--summary-fs) * 1vw / (var(--bpp) / 100));
+    letter-spacing: calc(var(--text-ls) * 1vw / (var(--bpp) / 100));
+  }
+}
+
+.read {
+  font-size: calc(var(--read-fs) * 1vw / (var(--bps) / 100));
+  font-weight: var(--text-fw);
+  line-height: var(--text-lh);
+  letter-spacing: calc(var(--text-ls) * 1vw / (var(--bps) / 100));
+  text-align: var(--ta);
+
+  --ta: left;
+
+  @media(min-width: 768px) {
+    font-size: calc(var(--read-fs) * 1vw / (var(--bpp) / 100));
+    letter-spacing: calc(var(--text-ls) * 1vw / (var(--bpp) / 100));
+  }
+}
+
+.caption {
+  font-size: calc(var(--caption-fs) * 1vw / (var(--bps) / 100));
+  font-weight: var(--text-fw);
+  line-height: var(--text-lh);
+  letter-spacing: calc(var(--text-ls) * 1vw / (var(--bps) / 100));
+  text-align: var(--ta);
+
+  --ta: left;
+
+  @media(min-width: 768px) {
+    font-size: calc(var(--caption-fs) * 1vw / (var(--bpp) / 100));
+    letter-spacing: calc(var(--text-ls) * 1vw / (var(--bpp) / 100));
+  }
+}
+
+.ttlText {
+  font-size: calc(var(--fs) * 1vw / (var(--bps) / 100));
+  font-weight: var(--ttltext-fw);
+  line-height: var(--ttltext-lh);
+  letter-spacing: calc(var(--ttltext-ls) * 1vw / (var(--bps) / 100));
+  text-align: var(--ta);
+  
+  --ta: center;
+
+  @media(min-width: 768px) {
+    font-size: calc(var(--fs) * 1vw / (var(--bpp) / 100));
+    letter-spacing: calc(var(--ttltext-ls) * 1vw / (var(--bpp) / 100));
+  }
+}
+/* h2 */
+
+.text {
+  font-size: calc(var(--fs) * 1vw / (var(--bps) / 100));
+  font-weight: var(--text-fw);
+  line-height: var(--text-lh);
+  letter-spacing: calc(var(--text-ls) * 1vw / (var(--bps) / 100));
+  text-align: var(--ta);
+
+  --ta: left;
+
+  @media(min-width: 768px) {
+    font-size: calc(var(--fs) * 1vw / (var(--bpp) / 100));
+    letter-spacing: calc(var(--text-ls) * 1vw / (var(--bpp) / 100));
+  }
+}
+
+.image {
+  object-fit: var(--obj-fit);
+  object-position: var(--obj-x) var(--obj-y);
+  width: 100%;
+  border-radius: calc(var(--rnd) * 1vw / (var(--bps) / 100));
+  
+  --obj-fit: cover;
+  --obj-x: 50%;
+  --obj-y: 50%;
+  --rnd: 0;
+  
+  @media(min-width: 768px) {
+    border-radius: calc(var(--rnd) * 1vw / (var(--bpp) / 100));
+  }
+}
+
+
+
+

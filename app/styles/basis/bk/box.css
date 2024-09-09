@@ -1,0 +1,58 @@
+/* ==========================================================================
+ box
+========================================================================== */
+
+/* テキスト */
+.rowBk {
+  &-txtBox {
+    width: 100%;
+  }
+  
+  &-txt {
+    width: fit-content;
+  }
+}
+
+/* 画像 */
+.rowBk {
+  &-imgBox {
+    width: 100%;
+  }
+  
+  &-img {
+    width: fit-content;
+  }
+}
+
+/* リスト */
+.rowBk {
+  &-listBox {
+    width: 100%;
+  }
+  
+  &-list {
+    width: fit-content;
+  }
+}
+
+/* ボタン */
+.rowBk {
+  &-btnBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: var(--jc);
+    align-items: var(--ai);
+    gap: var(--gap);
+    width: 100%;
+
+    --jc: center;
+    --ai: center;
+    --gap: 0;
+  }
+  
+  &-btn {
+    width: fit-content;
+  }
+}
+
+

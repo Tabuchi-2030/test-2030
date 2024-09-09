@@ -1,0 +1,154 @@
+/* ==========================================================================
+ padding
+========================================================================== */
+.rowBk {
+
+  &-txtBox, 
+  &-imgBox, 
+  &-listBox, 
+  &-btnBox { 
+    &--p {
+      padding: calc(var(--p) * 1vw / (var(--bps) / 100));
+      
+      @media(min-width: 768px) {
+        padding: calc(var(--p) * 1vw / (var(--bpp) / 100));
+      }
+    }
+  }
+
+  &-txtBox, 
+  &-imgBox, 
+  &-listBox, 
+  &-btnBox { 
+    &--pyx {
+      padding-block: calc(var(--py) * 1vw / (var(--bps) / 100));
+      padding-inline: calc(var(--px) * 1vw / (var(--bps) / 100));
+      
+      @media(min-width: 768px) {
+        padding-block: calc(var(--py) * 1vw / (var(--bpp) / 100));
+        padding-inline: calc(var(--px) * 1vw / (var(--bpp) / 100));
+      }
+    }
+  }
+
+  &-txtBox, 
+  &-imgBox, 
+  &-listBox, 
+  &-btnBox { 
+    &--block {
+      padding-block: calc(var(--py) * 1vw / (var(--bps) / 100));
+      
+      @media(min-width: 768px) {
+        padding-block: calc(var(--py) * 1vw / (var(--bpp) / 100));
+      }
+    }
+  }
+
+  &-txtBox, 
+  &-imgBox, 
+  &-listBox, 
+  &-btnBox { 
+    &--inline {
+      padding-inline: calc(var(--px) * 1vw / (var(--bps) / 100));
+      
+      @media(min-width: 768px) {
+        padding-inline: calc(var(--px) * 1vw / (var(--bpp) / 100));
+      }
+    }
+  }
+
+  &-txtBox, 
+  &-imgBox, 
+  &-listBox, 
+  &-btnBox { 
+    &--inlinePs {
+      padding-inline-start: calc(var(--ps) * 1vw / (var(--bps) / 100));
+      
+      @media(min-width: 768px) {
+        padding-inline-start: calc(var(--ps) * 1vw / (var(--bpp) / 100));
+      }
+    }
+  }
+
+  &-txtBox, 
+  &-imgBox, 
+  &-listBox, 
+  &-btnBox { 
+    &--inlinePe {
+      padding-inline-end: calc(var(--pe) * 1vw / (var(--bps) / 100));
+      
+      @media(min-width: 768px) {
+        padding-inline-end: calc(var(--pe) * 1vw / (var(--bpp) / 100));
+      }
+    }
+  }
+
+  &-txtBox, 
+  &-imgBox, 
+  &-listBox, 
+  &-btnBox { 
+    &--blockPt {
+      padding-block-start: calc(var(--pt) * 1vw / (var(--bps) / 100));
+      
+      @media(min-width: 768px) {
+        padding-block-start: calc(var(--pt) * 1vw / (var(--bpp) / 100));
+      }
+    }
+  }
+
+  &-txtBox, 
+  &-imgBox, 
+  &-listBox, 
+  &-btnBox { 
+    &--blockPb {
+      padding-block-end: calc(var(--pb) * 1vw / (var(--bps) / 100));
+      
+      @media(min-width: 768px) {
+        padding-block-end: calc(var(--pb) * 1vw / (var(--bpp) / 100));
+      }
+    }
+  }
+
+    /* ------------------------------------------- */
+
+  &-txtBox, 
+  &-imgBox, 
+  &-listBox, 
+  &-btnBox { 
+    &--blockPtPb {
+      padding-block: calc(var(--pt) * 1vw / (var(--bps) / 100)) calc(var(--pb) * 1vw / (var(--bps) / 100));
+      
+      @media(min-width: 768px) {
+        padding-block: calc(var(--pt) * 1vw / (var(--bpp) / 100)) calc(var(--pb) * 1vw / (var(--bpp) / 100));
+      }
+    }
+  }
+
+  &-txtBox, 
+  &-imgBox, 
+  &-listBox, 
+  &-btnBox { 
+    &--inlinePsPe {
+      padding-inline: calc(var(--ps) * 1vw / (var(--bps) / 100)) calc(var(--pe) * 1vw / (var(--bps) / 100));
+      
+      @media(min-width: 768px) {
+        padding-inline: calc(var(--ps) * 1vw / (var(--bpp) / 100)) calc(var(--pe) * 1vw / (var(--bpp) / 100));
+      }
+    }
+  }
+
+  &-txtBox, 
+  &-imgBox, 
+  &-listBox, 
+  &-btnBox { 
+    &--allP {
+      padding-block: calc(var(--pt) * 1vw / (var(--bps) / 100)) calc(var(--pb) * 1vw / (var(--bps) / 100));
+      padding-inline: calc(var(--ps) * 1vw / (var(--bps) / 100)) calc(var(--pe) * 1vw / (var(--bps) / 100));
+      
+      @media(min-width: 768px) {
+        padding-block: calc(var(--pt) * 1vw / (var(--bpp) / 100)) calc(var(--pb) * 1vw / (var(--bpp) / 100));
+        padding-inline: calc(var(--ps) * 1vw / (var(--bpp) / 100)) calc(var(--pe) * 1vw / (var(--bpp) / 100));
+      }
+    }
+  }
+}

@@ -1,0 +1,237 @@
+/* ==========================================================================
+ Ratio
+========================================================================== */
+/* ----------------------------------------------
+--ratio
+---------------------------------------------- */
+.parent, 
+/* .◯◯◯◯,
+.◯◯◯◯,
+.◯◯◯◯,
+.◯◯◯◯,
+.◯◯◯◯,
+.◯◯◯◯,
+.◯◯◯◯,
+.◯◯◯◯,
+.◯◯◯◯,
+.◯◯◯◯, */
+.gblHeader, 
+.gblFooter {
+
+  &-areaL, 
+  &-areaR, 
+  &-area {
+    &--bcRatio, 
+    &--bsRatio, 
+    &--beRatio, 
+    &--ccRatio, 
+    &--csRatio, 
+    &--ceRatio, 
+    &--scRatio, 
+    &--ssRatio, 
+    &--seRatio, 
+    &--ecRatio, 
+    &--esRatio, 
+    &--eeRatio {
+      display: flex;
+      flex-direction: column;
+      justify-content: var(--jc);
+      align-items: var(--ai);
+      gap: var(--gap);
+    }
+  }
+}
+
+.rowBk {
+  &-txtBox, 
+  &-txt, 
+  &-imgBox, 
+  &-img, 
+  &-btnBox, 
+  &-btn, 
+  &-listBox, 
+  &-list {
+    &--bcRatio, 
+    &--bsRatio, 
+    &--beRatio, 
+    &--ccRatio, 
+    &--csRatio, 
+    &--ceRatio, 
+    &--scRatio, 
+    &--ssRatio, 
+    &--seRatio, 
+    &--ecRatio, 
+    &--esRatio, 
+    &--eeRatio {
+      display: flex;
+      flex-direction: column;
+      justify-content: var(--jc);
+      align-items: var(--ai);
+      gap: var(--gap);
+    }
+  }
+}
+
+/* ----------------------------------------------
+ --jc／--ai／--gap
+---------------------------------------------- */
+/* .◯◯◯◯,
+.◯◯◯◯,
+.◯◯◯◯,
+.◯◯◯◯,
+.◯◯◯◯,
+.◯◯◯◯,
+.◯◯◯◯,
+.◯◯◯◯,
+.◯◯◯◯, */
+.parent {
+  &-areaL, 
+  &-areaR, 
+  &-area {
+    &--bcRatio {
+      --jc: space-between;
+      --ai: center;
+      --gap: 0;
+    }
+
+    &--bsRatio {
+      --jc: space-between;
+      --ai: flex-start;
+      --gap: 0;
+    }
+
+    &--beRatio {
+      --jc: space-between;
+      --ai: flex-end;
+      --gap: 0;
+    }
+
+    &--ccRatio {
+      --jc: center;
+      --ai: center;
+      --gap: 0;
+    }
+
+    &--csRatio {
+      --jc: center;
+      --ai: flex-start;
+      --gap: 0;
+    }
+
+    &--ceRatio {
+      --jc: center;
+      --ai: flex-end;
+      --gap: 0;
+    }
+
+    &--scRatio {
+      --jc: flex-start;
+      --ai: center;
+      --gap: 0;
+    }
+
+    &--ssRatio {
+      --jc: flex-start;
+      --ai: flex-start;
+      --gap: 0;
+    }
+
+    &--seRatio {
+      --jc: flex-start;
+      --ai: flex-end;
+      --gap: 0;
+    }
+
+    &--ecRatio {
+      --jc: flex-end;
+      --ai: center;
+      --gap: 0;
+    }
+
+    &--esRatio {
+      --jc: flex-end;
+      --ai: flex-start;
+      --gap: 0;
+    }
+
+    &--eeRatio {
+      --jc: flex-end;
+      --ai: flex-end;
+      --gap: 0;
+    }
+  }
+}
+
+.rowBk {
+  &--bcRatio {
+    --jc: space-between;
+    --ai: center;
+    --gap: 0;
+  }
+
+  &--bsRatio {
+    --jc: space-between;
+    --ai: flex-start;
+    --gap: 0;
+  }
+
+  &--beRatio {
+    --jc: space-between;
+    --ai: flex-end;
+    --gap: 0;
+  }
+
+  &--ccRatio {
+    --jc: center;
+    --ai: center;
+    --gap: 0;
+  }
+
+  &--csRatio {
+    --jc: center;
+    --ai: flex-start;
+    --gap: 0;
+  }
+
+  &--ceRatio {
+    --jc: center;
+    --ai: flex-end;
+    --gap: 0;
+  }
+
+  &--scRatio {
+    --jc: flex-start;
+    --ai: center;
+    --gap: 0;
+  }
+
+  &--ssRatio {
+    --jc: flex-start;
+    --ai: flex-start;
+    --gap: 0;
+  }
+
+  &--seRatio {
+    --jc: flex-start;
+    --ai: flex-end;
+    --gap: 0;
+  }
+
+  &--ecRatio {
+    --jc: flex-end;
+    --ai: center;
+    --gap: 0;
+  }
+
+  &--esRatio {
+    --jc: flex-end;
+    --ai: flex-start;
+    --gap: 0;
+  }
+
+  &--eeRatio {
+    --jc: flex-end;
+    --ai: flex-end;
+    --gap: 0;
+  }
+}

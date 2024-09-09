@@ -1,0 +1,39 @@
+/* ==========================================================================
+ structure
+========================================================================== */
+header {
+  width: 100%;
+  text-align: var(--ta);
+  --ta: left;
+
+  &-inner {
+    width: 100%;
+  }
+}
+
+main {
+  width: 100%;
+  text-align: var(--ta);
+  --ta: var(--text-align);
+
+  .inner {
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: calc(var(--element-gap) * 1vw / (var(--bps) / 100));
+    width: 100%;
+    
+    @media(min-width: 768px) {          
+      row-gap: calc(var(--element-gap) * 1vw / (var(--bpp) / 100));
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  text-align: var(--ta);
+  --ta: var(--text-align);
+
+  &-inner {
+    width: 100%;
+  }
+}

@@ -1,0 +1,154 @@
+/* ==========================================================================
+ margin
+========================================================================== */
+.rowBk {
+
+  &-txtBox, 
+  &-imgBox, 
+  &-listBox, 
+  &-btnBox { 
+    &--m {
+      margin: calc(var(--m) * 1vw / (var(--bps) / 100));
+      
+      @media(min-width: 768px) {
+        margin: calc(var(--m) * 1vw / (var(--bpp) / 100));
+      }
+    }
+  }
+
+  &-txtBox, 
+  &-imgBox, 
+  &-listBox, 
+  &-btnBox { 
+    &--yxM {
+      margin-block: calc(var(--my) * 1vw / (var(--bps) / 100));
+      margin-inline: calc(var(--mx) * 1vw / (var(--bps) / 100));
+      
+      @media(min-width: 768px) {
+        margin-block: calc(var(--my) * 1vw / (var(--bpp) / 100));
+        margin-inline: calc(var(--mx) * 1vw / (var(--bpp) / 100));
+      }
+    }
+  }
+
+  &-txtBox, 
+  &-imgBox, 
+  &-listBox, 
+  &-btnBox { 
+    &--blockM {
+      margin-block: calc(var(--my) * 1vw / (var(--bps) / 100));
+      
+      @media(min-width: 768px) {
+        margin-block: calc(var(--my) * 1vw / (var(--bpp) / 100));
+      }
+    }
+  }
+
+  &-txtBox, 
+  &-imgBox, 
+  &-listBox, 
+  &-btnBox { 
+    &--inlineM {
+      margin-inline: calc(var(--mx) * 1vw / (var(--bps) / 100));
+      
+      @media(min-width: 768px) {
+        margin-inline: calc(var(--mx) * 1vw / (var(--bpp) / 100));
+      }
+    }
+  }
+
+  &-txtBox, 
+  &-imgBox, 
+  &-listBox, 
+  &-btnBox { 
+    &--inlineMs {
+      margin-inline-start: calc(var(--ms) * 1vw / (var(--bps) / 100));
+      
+      @media(min-width: 768px) {
+        margin-inline-start: calc(var(--ms) * 1vw / (var(--bpp) / 100));
+      }
+    }
+  }
+
+  &-txtBox, 
+  &-imgBox, 
+  &-listBox, 
+  &-btnBox { 
+    &--inlineMe {
+      margin-inline-end: calc(var(--me) * 1vw / (var(--bps) / 100));
+      
+      @media(min-width: 768px) {
+        margin-inline-end: calc(var(--me) * 1vw / (var(--bpp) / 100));
+      }
+    }
+  }
+
+  &-txtBox, 
+  &-imgBox, 
+  &-listBox, 
+  &-btnBox { 
+    &--blockMt {
+      margin-block-start: calc(var(--mt) * 1vw / (var(--bps) / 100));
+      
+      @media(min-width: 768px) {
+        margin-block-start: calc(var(--mt) * 1vw / (var(--bpp) / 100));
+      }
+    }
+  }
+
+  &-txtBox, 
+  &-imgBox, 
+  &-listBox, 
+  &-btnBox { 
+    &--blockMb {
+      margin-block-end: calc(var(--mb) * 1vw / (var(--bps) / 100));
+      
+      @media(min-width: 768px) {
+        margin-block-end: calc(var(--mb) * 1vw / (var(--bpp) / 100));
+      }
+    }
+  }
+
+  /* ------------------------------------------- */
+
+  &-txtBox, 
+  &-imgBox, 
+  &-listBox, 
+  &-btnBox { 
+    &--blockMtMb {
+      margin-block: calc(var(--mt) * 1vw / (var(--bps) / 100)) calc(var(--mb) * 1vw / (var(--bps) / 100));
+      
+      @media(min-width: 768px) {
+        margin-block: calc(var(--mt) * 1vw / (var(--bpp) / 100)) calc(var(--mb) * 1vw / (var(--bpp) / 100));
+      }
+    }
+  }
+
+  &-txtBox, 
+  &-imgBox, 
+  &-listBox, 
+  &-btnBox { 
+    &--inlineMsMe {
+      margin-inline: calc(var(--ms) * 1vw / (var(--bps) / 100)) calc(var(--me) * 1vw / (var(--bps) / 100));
+      
+      @media(min-width: 768px) {
+        margin-inline: calc(var(--ms) * 1vw / (var(--bpp) / 100)) calc(var(--me) * 1vw / (var(--bpp) / 100));
+      }
+    }
+  }
+
+  &-txtBox, 
+  &-imgBox, 
+  &-listBox, 
+  &-btnBox { 
+    &--allM {
+      margin-block: calc(var(--mt) * 1vw / (var(--bps) / 100)) calc(var(--mb) * 1vw / (var(--bps) / 100));
+      margin-inline: calc(var(--ms) * 1vw / (var(--bps) / 100)) calc(var(--me) * 1vw / (var(--bps) / 100));
+      
+      @media(min-width: 768px) {
+        margin-block: calc(var(--mt) * 1vw / (var(--bpp) / 100)) calc(var(--mb) * 1vw / (var(--bpp) / 100));
+        margin-inline: calc(var(--ms) * 1vw / (var(--bpp) / 100)) calc(var(--me) * 1vw / (var(--bpp) / 100));
+      }
+    }
+  }
+}

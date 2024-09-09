@@ -1,0 +1,55 @@
+/* ==========================================================================
+ parent
+========================================================================== */
+.gblHeader, 
+.gblFooter, 
+/* .◯◯◯◯,
+.◯◯◯◯,
+.◯◯◯◯,
+.◯◯◯◯,
+.◯◯◯◯,
+.◯◯◯◯,
+.◯◯◯◯,
+.◯◯◯◯,
+.◯◯◯◯,
+.◯◯◯◯, */
+.parent {
+  width: 100%;
+  
+  &-inner {
+    width: 100%;
+    background-color: var(--bg);
+  }
+  
+  &-areaL {
+    margin-inline: 0 auto;
+  }
+  
+  &-areaR {
+    margin-inline: auto 0;
+  }
+  
+  &-area {
+    margin-inline: auto;
+  }
+}
+
+.colBk {
+  display: grid;
+  grid-auto-flow: column;
+  place-content: var(--ac) var(--jc);
+  place-items: var(--ai) var(--ji);
+  column-gap: calc(var(--c-gap) * 1vw / (var(--bps) / 100));
+  row-gap: calc(var(--r-gap) * 1vw / (var(--bps) / 100));
+  width: 100%;
+
+  --jc: space-between;
+  --ji: normal;
+  --ac: normal;
+  --ai: center;
+  --r-gap: var(--c-gap);
+}
+
+.rowBk {
+  width: 100%;
+}
