@@ -1,31 +1,31 @@
 import { Link } from '@remix-run/react';
 import { imgPage01 } from '../lib/img/page01/images';
 
-import { json } from '@remix-run/node';
-import { useLoaderData } from '@remix-run/react';
+// import { json } from '@remix-run/node';
+// import { useLoaderData } from '@remix-run/react';
 
 
-export const loader = async () => {
-  // ローカル開発環境で自己署名証明書を許可
-  process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+// export const loader = async () => {
+//   // ローカル開発環境で自己署名証明書を許可
+//   process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
-  const res = await fetch('https://react-remix.local/wp-json/wp/v2/pages/24');
-  const pageData = await res.json();
-  return json(pageData);
-};
+//   const res = await fetch('https://react-remix.local/wp-json/wp/v2/pages/24');
+//   const pageData = await res.json();
+//   return json(pageData);
+// };
 
 
 
 
   const Index = (): JSX.Element => {
-  const pageData = useLoaderData();
+  // const pageData = useLoaderData();
  return (
   <main>
     <div className="inner">
 
-        <h1>{pageData.title.rendered}</h1>
+        {/* <h1>{pageData.title.rendered}</h1>
 
-        <div dangerouslySetInnerHTML={{ __html: pageData.content.rendered }} />
+        <div dangerouslySetInnerHTML={{ __html: pageData.content.rendered }} /> */}
 
       <div className="parent">
         <div className="parent-inner">
